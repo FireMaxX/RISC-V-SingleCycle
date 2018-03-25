@@ -1,0 +1,86 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'riscv' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : qor
+Design : riscv
+Version: J-2014.09-SP4
+Date   : Fri Mar  2 02:57:35 2018
+****************************************
+
+
+  Timing Path Group 'clk'
+  -----------------------------------
+  Levels of Logic:              37.00
+  Critical Path Length:          5.31
+  Critical Path Slack:          -3.34
+  Critical Path Clk Period:      4.00
+  Total Negative Slack:     -53820.01
+  No. of Violating Paths:    17417.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          5
+  Hierarchical Port Count:        335
+  Leaf Cell Count:              55111
+  Buf/Inv Cell Count:            3788
+  Buf Cell Count:                1347
+  Inv Cell Count:                2441
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:     37662
+  Sequential Cell Count:        17449
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:    93501.357157
+  Noncombinational Area:
+                        115258.882369
+  Buf/Inv Area:           6168.074989
+  Total Buffer Area:          3058.11
+  Total Inverter Area:        3109.96
+  Macro/Black Box Area:      0.000000
+  Net Area:             155176.720782
+  -----------------------------------
+  Cell Area:            208760.239526
+  Design Area:          363936.960308
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:         55137
+  Nets With Violations:            54
+  Max Trans Violations:             0
+  Max Cap Violations:              54
+  -----------------------------------
+
+
+  Hostname: zuma.eecs.uci.edu
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                   53.86
+  Logic Optimization:                132.09
+  Mapping Optimization:             1799.68
+  -----------------------------------------
+  Overall Compile Time:             2956.30
+  Overall Compile Wall Clock Time:  3682.82
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 3.34  TNS: 53820.01  Number of Violating Paths: 17417
+
+
+  Design (Hold)  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+  --------------------------------------------------------------------
+
+
+1
